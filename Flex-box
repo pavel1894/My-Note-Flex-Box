@@ -1,0 +1,51 @@
+1. Flex-container.
+
+		- display:flex(block);
+				inline-flex(inline);
+
+		- flex-direction:row, row-reverse;
+						column, column-reverse;----строку или в столбец;
+		- flex-wrap:nowrap(basic);
+				   wrap;
+				   wrap-reverse;	-------адаптив
+--------------------------------------------------------------
+		
+		- justify-content:flex-start;
+						  flex-end;
+						  center;-------выравнивание
+						  space-between;  |-  -  -  -|
+						  space-around;  |  -  -  -  |
+
+		- align-items:flex-start;
+					  flex-end;
+					  center;-------выравнивание по вертикали
+					  stretch;------на всю высоту 
+
+		- align-content:  stretch(на всювысоту)
+						  flex-start;
+						  flex-end;
+						  center;-------выравнивание
+
+-----------------------------------------------------------------------------------	
+
+
+2.Flex-element.
+		- order:0(basic)
+			   1; | 000001|
+			   -1; |-10000|
+
+		- flex-grow:2(basic)
+					1:1
+					2(отношение данного элемента к дугим 2:1)
+
+        - flex-basis:auto(минимальное значение шиирины блока
+							равное контенту)
+					 300px и тд
+-----------------------------------------------------------
+		
+		- flex-shrink:1(basic);
+					  2; ----при уменьшении размеров в два раза больше сжимается(необходимо задать width эл.)
+		- align-self:flex-start;
+					 flex-end;
+					 center;-------выравнивание по вертикали 			  	
+		
