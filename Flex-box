@@ -31,6 +31,8 @@
 
 
 2.Flex-element.
+	- flex-grow:1
+	
 	- order:0(basic)
 	       1; | 000001|
 	      -1; |-10000|
