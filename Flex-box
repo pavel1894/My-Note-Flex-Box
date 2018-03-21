@@ -31,7 +31,9 @@
 
 
 2.Flex-element.
-	- flex-grow:1
+	- flex-grow:0(basic)
+			1:1
+			2(отношение данного элемента к дугим 2:1)
 	
 	- order:0(basic)
 	       1; | 000001|
